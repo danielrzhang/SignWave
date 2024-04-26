@@ -1,5 +1,5 @@
 # SignWave
-SignWave is designed to detect American Sign Language (ASL) hand gestures in real-time via webcam. It includes functionalities to collect training images for ASL characters from the camera, generate image datasets for training, train a classifier to recognize ASL hand images, and perform live detection of ASL characters. This program was developed using Python, OpenCV, MediaPipe, and scikit-learn.
+SignWave is a program designed to detect American Sign Language (ASL) hand gestures in real-time via webcam. It leverages machine learning algorithms and computer vision techniques to detect hand gesture to character translations in real-time. It features capabilities for gathering training data, constructing image data sets, training classifiers, and conducting live recognition of ASL characters. This was developed using Python, OpenCV, MediaPipe, and scikit-learn.
 
 ## Files
 1. `image_collector.py`
