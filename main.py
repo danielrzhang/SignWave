@@ -73,10 +73,6 @@ while True:
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)
         cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0, 0, 0), 3, cv2.LINE_AA)
 
-    # # Resize frame to match screen resolution
-    # cv2.namedWindow("SignWave", cv2.WINDOW_NORMAL)
-    # cv2.setWindowProperty("SignWave", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
-
     # Displaying the frame with predictions
     cv2.imshow("SignWave", frame)
     cv2.waitKey(1)
